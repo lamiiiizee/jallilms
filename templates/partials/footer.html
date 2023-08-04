@@ -1,0 +1,68 @@
+{% load static %}
+
+<style>
+    input#id_email {
+        border-radius: 4px 0px 0px 4px;
+    }
+</style>
+
+<!-- Footer Area Strat -->
+<footer id="footer_area">
+    <div class="footer_wrapper">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12 mx-auto">
+                    <div class="footer_wedget text-center">
+                        <div class="footer_heading">
+                            <h4>SUBSCRIBE NEWSLETTER</h4>
+                        </div>
+                        <div class="footerSubscribe">
+                            <form action="/email/" method="POST" class="footer_sub input-group">
+                                {% csrf_token %}
+                                <!-- <input type="text" class="form-control" placeholder="Enter your email address"> -->
+                                {{emailform.email}}
+                                <button type="submit"> <i class="fa fa-envelope" aria-hidden="true"></i> </button>
+                            </form>
+                            <div class="footer_soical_link">
+                                <p>Get In Touch.</p>
+                                <ul class="footer_icons">
+                                    <li><a href="http://facebook.com/careergurujalil" target="_blank"><i
+                                                class="fab facebook fa-facebook-f"></i></a></li>
+                                    <li><a href="https://youtube.com/@CareerGuruOnlineChannel"><i
+                                                class="fab youtube fa-youtube"></i></a></li>
+                                    <li><a href="https://www.instagram.com/jalilmadambat/?igshid=YmMyMTA2M2Y%3D"
+                                            target="_blank"><i class="fab instagram fa-instagram"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/jalil-ms-74182b7/?originalSubdomain=in"
+                                            target="_blank"><i class="fab linkedin fa-linkedin-in"></i></a></li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<div id="copy_right_area" class="bg-custom">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="copy_right_text">
+                    <p>@ {% now 'Y' %} - Gedexo | All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="float_icon">
+    <a href="https://t.me/+E6atd8VXwJo3ZDRl" class="d-inline-block" target="_blank">
+        <span>Join Telegram Community</span>
+        <img src="{% static 'web/img/telegram.png' %}" alt="">
+    </a>
+</div>

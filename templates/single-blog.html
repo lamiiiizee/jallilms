@@ -1,0 +1,38 @@
+{% extends 'partials/base.html' %}
+{% load static %}
+
+{% block content %}
+<section id="blog_main_page" class="section_padding">
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-12">
+            <div class="single_blog_wrappers">
+               <div class="blog_single_item  box-shadow">
+                  <div class="blog_single_text_area">
+                     <div class="blog_single_top_img" style="justify-content:center;text-align:center;">
+                        <img src="{{update.image.url}}" alt="img">
+                     </div>
+                     <div class="blog_single_viewer_area ">
+                        <ul>
+                           <li><a href="#!"><i class="far fa-user"></i> {{update.subhead}}</a></li>
+                           <li><a href="#!"><i class="far fa-clock"></i> {{update.date}}</a></li>
+                           <!-- <li><a href="#!"><i class="far fa-comment"></i> 4</a></li> -->
+                        </ul>
+                     </div>
+                     <div class="blog_single_heading">
+                        <h3>{{update.title}}.</h3>
+                     </div>
+                     <div class="blog_single_text">
+                        <p>{{update.details|safe}}</p>
+
+                     </div>
+
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+{% endblock %}

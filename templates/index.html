@@ -1,0 +1,95 @@
+{% extends 'partials/base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<!-- Who We Are Start -->
+<section id="who_we_are_area" class="home_padding">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-5 col-md-12 col-sm-12 col-12">
+                <div class="who_img_area">
+                    <img src="{% static 'web/images/add/jaleel_sir.png' %}" alt="img">
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-12 col-sm-12 col-12">
+                <div class="who_right_area">
+                    <div class="left_align_title">
+                        <h2 style="margin-bottom:20px;color:#fa6a45;">Meet, JALIL MS</h2>
+                        <h4>Founding CEO & Chief Mentor, Career Guru</h4>
+
+                        <div class="highlite-main">
+                            <div class="hero-highlite">
+                                <div class="highlite-head">20 +</div>
+                                <div class="highlite-sub">Year Experience</div>
+                            </div>
+                            <div class="hero-highlite">
+                                <div class="highlite-head">10 Lakh +</div>
+                                <div>Beneficiaries</div>
+                            </div>
+                            <div class="hero-highlite">
+                                <div class="highlite-head">5,000 +</div>
+                                <div>Programs</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% include "partials/marquee.html" %}
+
+
+
+<section id="joinus_area" class="section_padding bg-custom">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-5 col-md-12 col-sm-12 col-12">
+                <div class="join_text">
+
+                    <h2>Book an appointment</h2>
+                    <p>
+                        Mr Jalil M S is a renowned career guidance strategist and qualified trainer who spread his wings
+                        at both national and international levels. He is also the Managing Director and Chief Career
+                        Mentor at Career Guru
+                    </p>
+                    <a href="{% url 'web:contact' %}" class="btn btn-theme">Get Appointment</a>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-12 col-sm-12 col-12">
+                <div class="join_area_img">
+                    <img src="{% static 'web/images/add/Untitled.png' %}" alt="img">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Updtates Area End-->
+
+<section id="blog_main_page" class="section_padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12 col-12">
+                <div class="section_title_arae">
+                    <h2>Latest Videos</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            {% for video in videos %}
+            <div class="col-xs-12 col-sm-4 p-2">
+                <div class='embed-container'>
+                    <iframe src='https://www.youtube.com/embed/{{video.video_id}}' frameborder='0'
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+{% endblock %}

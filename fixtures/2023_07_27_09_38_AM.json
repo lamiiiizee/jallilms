@@ -1,0 +1,341 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$260000$6lo1gwRPYvIA2SuZOFq2Ck$mFT6V62wcTMqmoRGMD0n4QOICTtoVhgXOoO1hoIimSg=",
+            "last_login": "2023-07-27T09:00:19Z",
+            "is_superuser": true,
+            "username": "jalilmswebadmin",
+            "first_name": "Jalil",
+            "last_name": "MS",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2023-04-29T06:18:55Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "web.update",
+        "pk": 1,
+        "fields": {
+            "image": "blogs/3.jpg",
+            "date": "2021-03-15",
+            "subhead": "Education",
+            "title": "Career Guidance Talk",
+            "details": "<p>The first and foremost thing in giving career guidance to any individual is to make them aware that there aren't the traditional one or two career options today. Today, there are multiple options and exclusive options in career choices that one can follow and take up.For us, there are 5 major facets to effective career guidance &ndash;&nbsp;Psychometric Tests, Personalized Counselling, Technology-based Research tools, Alumni Guidance, and University Engagement.</p>"
+        }
+    },
+    {
+        "model": "web.update",
+        "pk": 2,
+        "fields": {
+            "image": "blogs/4.jpg",
+            "date": "2018-11-20",
+            "subhead": "Column Expert",
+            "title": "Expert columnist and writer",
+            "details": "<p>Leading&nbsp;writers&nbsp;and&nbsp;columnists&nbsp;brings you their&nbsp;expert&nbsp;opinion, analysis and views in Times of India.A columnist is a person who writes for publication in a series,&nbsp;creating an article that usually offers commentary and opinions. Columns appear in newspapers, magazines and other publications, including blogs. They take the form of a short essay by a specific writer who offers a personal point of view.</p>"
+        }
+    },
+    {
+        "model": "web.update",
+        "pk": 3,
+        "fields": {
+            "image": "blogs/2.jpg",
+            "date": "2021-07-13",
+            "subhead": "Best trainer",
+            "title": "Qualified teacher trainer",
+            "details": "<p>Teacher trainers can be found in schools and universities where they&nbsp;<strong>help improve teachers' skills</strong>. They typically make assessments and provide coaching and advice. Teacher trainers also sit in on classes, provide curriculum guidance, and set goals for&nbsp;<span tabindex=\"0\" role=\"tooltip\"><span class=\"c5aZPb\" tabindex=\"0\" role=\"button\" data-enable-toggle-animation=\"true\" data-extra-container-classes=\"ZLo7Eb\" data-hover-hide-delay=\"1000\" data-hover-open-delay=\"500\" data-send-open-event=\"true\" data-theme=\"0\" data-width=\"250\" data-ved=\"2ahUKEwiXrcn52M7-AhXfTmwGHb69AQYQmpgGegQIGxAD\"><span class=\"JPfdse\" data-bubble-link=\"\" data-segment-text=\"teaching\">teaching</span></span></span>&nbsp;staff. Completely free trial, no card required.</p>"
+        }
+    },
+    {
+        "model": "web.update",
+        "pk": 4,
+        "fields": {
+            "image": "blogs/6.jpg",
+            "date": "2018-07-17",
+            "subhead": "Expert counsellor",
+            "title": "Licensed DAT Counsellor",
+            "details": "<p>Career counselling is a domain of counseling that focuses on helping individuals find the right career pathway. In career counselling the individuals receive guidance from professional counselors that provide expert advice on the potentials, Aptitude, motivations, skills and shortcomings with the use of carefully designed assessment tools. These assessment tools are both subjective and objective. After carefully studying the individual's Interests and Aptitude, career counselors guide individuals to set their career goals.</p>"
+        }
+    },
+    {
+        "model": "web.contact",
+        "pk": 2,
+        "fields": {
+            "name": "Sharon Chan",
+            "email": "sharonchan.mkt@outlook.com",
+            "phone": "9058899464",
+            "message": "Hi\r\n\r\nI hope you are doing well.\r\nCan we talk about the important facts of your website design and marketing?\r\n\r\nMay I have your phone number & the best time to connect?",
+            "choices": "for_booking"
+        }
+    },
+    {
+        "model": "web.contact",
+        "pk": 3,
+        "fields": {
+            "name": "Harvey Miller",
+            "email": "harvey.websolution@gmail.com",
+            "phone": "8458271444",
+            "message": "Hey,\r\n \r\nYour website's design is absolutely brilliant. The visuals really enhance your message and the content compels action. I've forwarded it to a few of my contacts who I think could benefit from your services.\r\n \r\nWhen I was looking at your site, though, I noticed some mistakes that you've made re: search engine optimization (SEO) which may be leading to a decline in your organic SEO results. Would you like to fix it so that you can get maximum exposure/presence on Google, Bing, Yahoo and web traffic to your website?\r\n \r\nIt's a relatively simple fix. If this is a priority, I can also get on a call.\r\n \r\nPlease share your “Phone Number\" and a suitable time to talk, so I can help you in that.\r\n \r\nRegards,\r\nHarvey Miller\r\nDigital Marketing Expert",
+            "choices": "for_appointment"
+        }
+    },
+    {
+        "model": "web.contact",
+        "pk": 4,
+        "fields": {
+            "name": "Rosetta Pond",
+            "email": "WiseProducts2023@outlook.com",
+            "phone": "23-52-60-76",
+            "message": "Hey,\r\n\r\nHave you tried this tool yet called Conversiobot? it does this...\r\n\r\nAre you tired of watching your website traffic go to waste? Introducing ConversioBot, the high converting tool that will skyrocket your sales! bit.ly/BuyConversioBot\r\n\r\nWith ConversioBot, you can easily create your own customized chatbot to engage with your website visitors and convert them into paying customers.\r\n\r\n With advanced AI technology and an easy-to-use interface.  \r\n\r\nSay goodbye to bouncing visitors and hello to increased sales with ConversioBot. Try it out today and watch your business soar bit.ly/BuyConversioBot!\r\n\r\nOpt out of future messages by replying to this message or emailing WiseProducts2023@outlook.com and saying opt out. \r\n\r\nRegards,\r\n\r\nDale \r\n\r\nbit.ly/BuyConversioBot",
+            "choices": "for_booking"
+        }
+    },
+    {
+        "model": "web.contact",
+        "pk": 5,
+        "fields": {
+            "name": "Josephimawl",
+            "email": "no.reply.SanderGirard@gmail.com",
+            "phone": "88628462744",
+            "message": "Hi! jalilms.com \r\n \r\nDid you know that it is possible to send proposals absolutely legally? We are offering a novel approach to sending business offers through feedback forms. Such feedback forms can be found on a host of websites. \r\nWhen such letters are sent, no personal data is utilized, and messages are sent to securely-designed forms that are specifically meant to receive messages and appeals. Contact Forms messages are usually considered to be important, so they don't tend to be sent to spam. \r\nYou have the chance to use our service without having to pay anything. \r\nWe are able to dispatch up to 50,000 messages on your behalf. \r\n \r\nThe cost of sending one million messages is $59. \r\n \r\nThis offer is automatically generated. \r\nPlease use the contact details below to get in touch with us. \r\n \r\nContact us. \r\nTelegram - https://t.me/FeedbackFormEU \r\nSkype  live:feedbackform2019 \r\nWhatsApp  +375259112693 \r\nWhatsApp  https://wa.me/+375259112693 \r\n \r\nWe only use chat for communication.",
+            "choices": "for_booking"
+        }
+    },
+    {
+        "model": "web.contact",
+        "pk": 6,
+        "fields": {
+            "name": "Mike Day",
+            "email": "mikeplulanum@gmail.com",
+            "phone": "83343175879",
+            "message": "Hi there, \r\n \r\nI have recently conducted an analysis of jalilms.com for onsite errors and discovered that your website presents several issues that require attention. \r\n \r\nRegardless of the product or service you are offering or selling, possessing a site that is inadequately optimized and rife with errors and bugs will not aid in boosting your rankings. \r\n \r\nLet us fix your WordPress website problems today and improve your search engine rankings. \r\n \r\nMore info: \r\nhttps://www.digital-x-press.com/product/wordpress-seo-audit-and-fix-service/ \r\n \r\n \r\nRegards \r\nMike Day",
+            "choices": "for_booking"
+        }
+    },
+    {
+        "model": "web.contact",
+        "pk": 7,
+        "fields": {
+            "name": "Mike Parkinson",
+            "email": "mikeplulanum@gmail.com",
+            "phone": "89457916172",
+            "message": "Hi there, \r\n \r\nMy name is Mike from Monkey Digital, \r\n \r\nAllow me to present to you a lifetime revenue opportunity of 35% \r\nThat's right, you can earn 35% of every order made by your affiliate for life. \r\n \r\nSimply register with us, generate your affiliate links, and incorporate them on your website, and you are done. It takes only 5 minutes to set up everything, and the payouts are sent each month. \r\n \r\nClick here to enroll with us today: \r\nhttps://www.monkeydigital.org/affiliate-dashboard/ \r\n \r\nThink about it, \r\nEvery website owner requires the use of search engine optimization (SEO) for their website. This endeavor holds significant potential for both parties involved. \r\n \r\nThanks and regards \r\nMike Parkinson\r\n \r\nMonkey Digital",
+            "choices": "for_booking"
+        }
+    },
+    {
+        "model": "web.contact",
+        "pk": 8,
+        "fields": {
+            "name": "Robertdap",
+            "email": "zelatcol@gmail.com",
+            "phone": "89463399341",
+            "message": "Salam, qiymətinizi bilmək istədim.",
+            "choices": "for_booking"
+        }
+    },
+    {
+        "model": "web.contact",
+        "pk": 9,
+        "fields": {
+            "name": "Robertdap",
+            "email": "alfredegov@gmail.com",
+            "phone": "89163849315",
+            "message": "Ciao, volevo sapere il tuo prezzo.",
+            "choices": "for_booking"
+        }
+    },
+    {
+        "model": "web.contact",
+        "pk": 10,
+        "fields": {
+            "name": "vvd vb",
+            "email": "dbdb@fg.com",
+            "phone": "09876543210",
+            "message": "test",
+            "choices": "for_booking"
+        }
+    },
+    {
+        "model": "web.contact",
+        "pk": 11,
+        "fields": {
+            "name": "Mike Chandter",
+            "email": "mikeplulanum@gmail.com",
+            "phone": "84856566897",
+            "message": "Greetings \r\n \r\nThis is Mike Chandter\r\n \r\nLet me introduce to you our latest research results from our constant SEO feedbacks that we have from our plans: \r\n \r\nhttps://www.strictlydigital.net/product/semrush-backlinks/ \r\n \r\nThe new Semrush Backlinks, which will make your jalilms.com SEO trend have an immediate push. \r\nThe method is actually very simple, we are building links from domains that have a high number of keywords ranking for them.  \r\n \r\nForget about the SEO metrics or any other factors that so many tools try to teach you that is good. The most valuable link is the one that comes from a website that has a healthy trend and lots of ranking keywords. \r\nWe thought about that, so we have built this plan for you \r\n \r\nCheck in detail here: \r\nhttps://www.strictlydigital.net/product/semrush-backlinks/ \r\n \r\nCheap and effective \r\n \r\nTry it anytime soon \r\n \r\n \r\nRegards \r\n \r\nMike Chandter\r\n \r\nmike@strictlydigital.net",
+            "choices": "for_booking"
+        }
+    },
+    {
+        "model": "web.contact",
+        "pk": 12,
+        "fields": {
+            "name": "Mike Ellington",
+            "email": "mikeplulanum@gmail.com",
+            "phone": "87321568272",
+            "message": "Hi there, \r\n \r\nI have reviewed your domain in MOZ and have observed that you may benefit from an increase in authority. \r\n \r\nOur solution guarantees you a high-quality domain authority score within a period of three months. This will increase your organic visibility and strengthen your website authority, thus making it stronger against Google updates. \r\n \r\nCheck out our deals for more details. \r\nhttps://www.monkeydigital.co/domain-authority-plan/ \r\n \r\nNEW: Ahrefs Domain Rating \r\nhttps://www.monkeydigital.co/ahrefs-seo/ \r\n \r\nThanks and regards \r\nMike Ellington",
+            "choices": "For Program"
+        }
+    },
+    {
+        "model": "web.contact",
+        "pk": 13,
+        "fields": {
+            "name": "Mike Jackson",
+            "email": "mikeplulanum@gmail.com",
+            "phone": "83857176577",
+            "message": "Hi there, \r\n \r\nMy name is Mike from Monkey Digital, \r\n \r\nAllow me to present to you a lifetime revenue opportunity of 35% \r\nThat's right, you can earn 35% of every order made by your affiliate for life. \r\n \r\nSimply register with us, generate your affiliate links, and incorporate them on your website, and you are done. It takes only 5 minutes to set up everything, and the payouts are sent each month. \r\n \r\nClick here to enroll with us today: \r\nhttps://www.monkeydigital.org/affiliate-dashboard/ \r\n \r\nThink about it, \r\nEvery website owner requires the use of search engine optimization (SEO) for their website. This endeavor holds significant potential for both parties involved. \r\n \r\nThanks and regards \r\nMike Jackson\r\n \r\nMonkey Digital",
+            "choices": "For Program"
+        }
+    },
+    {
+        "model": "web.contact",
+        "pk": 14,
+        "fields": {
+            "name": "Josephimawl",
+            "email": "no.reply.AlexandreJensen@gmail.com",
+            "phone": "89531474123",
+            "message": "Salutations! jalilms.com \r\n \r\nDid you know that it is possible to send request fully legit and concisely? We recommend a new legal way of sending letters through contact forms. Many websites provide such forms. \r\nWhen such messages are sent, no personal data is used, and messages are sent to forms specifically designed to receive messages and appeals securely. You won't have to worry about Contact Form messages being sent to spam, since they are deemed important. \r\nWe offer you the opportunity to test our service free of charge. \r\nWe can deliver up to 50,000 messages on your instruction. \r\n \r\nThe cost of sending one million messages is $59. \r\n \r\nThis message was automatically generated. \r\nPlease use the contact details below to get in touch with us. \r\n \r\nContact us. \r\nTelegram - https://t.me/FeedbackFormEU \r\nSkype  live:feedbackform2019 \r\nWhatsApp  +375259112693 \r\nWhatsApp  https://wa.me/+375259112693 \r\n \r\nWe only use chat for communication.",
+            "choices": "For Program"
+        }
+    },
+    {
+        "model": "web.contact",
+        "pk": 15,
+        "fields": {
+            "name": "Mike Hamphrey",
+            "email": "mikealieffibefetry@gmail.com",
+            "phone": "88682862711",
+            "message": "If you are looking to rank your local business on Google Maps in a specific area, this service is for you. \r\n \r\nGoogle Map Stacking is a highly effective technique for ranking your GMB within a specific mile radius. \r\n \r\nMore info: \r\nhttps://www.speed-seo.net/product/google-maps-pointers/ \r\n \r\nThanks and Regards \r\nMike Hamphrey\r\n \r\n \r\nPS: Want a comprehensive local plan that covers everything? \r\nhttps://www.speed-seo.net/product/local-seo-bundle/",
+            "choices": "For Program"
+        }
+    },
+    {
+        "model": "web.contact",
+        "pk": 16,
+        "fields": {
+            "name": "Mike Parson",
+            "email": "mikeQueera@gmail.com",
+            "phone": "87345928963",
+            "message": "Hi there \r\n \r\nJust checked your jalilms.com backlink profile, I noticed a moderate percentage of toxic links pointing to your website \r\n \r\nWe will investigate each link for its toxicity and perform a professional clean up for you free of charge. \r\n \r\nStart recovering your ranks today: \r\nhttps://www.hilkom-digital.de/professional-linksprofile-clean-up-service/ \r\n \r\n \r\nRegards \r\nMike Parson\r\nHilkom Digital SEO Experts \r\nhttps://www.hilkom-digital.de/",
+            "choices": "For Program"
+        }
+    },
+    {
+        "model": "web.contact",
+        "pk": 17,
+        "fields": {
+            "name": "Robertdap",
+            "email": "zelatcol@gmail.com",
+            "phone": "81214862246",
+            "message": "Ndewo, achọrọ m ịmara ọnụahịa gị.",
+            "choices": "For Program"
+        }
+    },
+    {
+        "model": "web.contact",
+        "pk": 18,
+        "fields": {
+            "name": "Martin Jose Barreiro",
+            "email": "barreiromartin36@gmail.com",
+            "phone": "85565636113",
+            "message": "Hello \r\nMy name is Br.Martin Jose Barreiro, I am a Lawyer and I pratices here in Madrid Spain.  I have previously sent you an email regarding a transaction of US$13.5 Million left behind by my late client before his tragic death. \r\nHowever I am reaching out to you once again because after going through your profile, I strongly believe that you will be in a better position to execute this business transaction with me. \r\nI suggest after the transaction, we donate 5% of the money to charity organizations while the remaining 95% is shared equally between us. \r\nIf you are interested to proceed with me, kindly respond to me via this email  legalmj@barieroabogados.com for more detail. \r\nThis transaction is 100% risk free and I look forward to your response. \r\nYours sincerely \r\nMartin Jose Barreiro,, \r\nLawyer \r\nPhone: +34 661 220 756 \r\nE-mail:  legalmj@barieroabogados.com \r\nWeb:  http://www.barreiroabogado.com/",
+            "choices": "For Program"
+        }
+    },
+    {
+        "model": "web.gallery",
+        "pk": 1,
+        "fields": {
+            "image": "gallery/6_qatEinx.jpg",
+            "name": "Expert talk",
+            "subtitle": "Upgrade yourself"
+        }
+    },
+    {
+        "model": "web.gallery",
+        "pk": 2,
+        "fields": {
+            "image": "gallery/3.jpg",
+            "name": "Best trainer",
+            "subtitle": "Get quality training"
+        }
+    },
+    {
+        "model": "web.gallery",
+        "pk": 3,
+        "fields": {
+            "image": "gallery/2.jpg",
+            "name": "DAT Counsellor",
+            "subtitle": "Qualified counsellor"
+        }
+    },
+    {
+        "model": "web.gallery",
+        "pk": 4,
+        "fields": {
+            "image": "gallery/4.jpg",
+            "name": "Expert writer",
+            "subtitle": "Expert columnist and writer"
+        }
+    },
+    {
+        "model": "web.gallery",
+        "pk": 5,
+        "fields": {
+            "image": "gallery/5.jpg",
+            "name": "Career guidance",
+            "subtitle": "Best Career Expert"
+        }
+    },
+    {
+        "model": "web.email",
+        "pk": 3,
+        "fields": {
+            "email": "egstrhgyt@gmail.com"
+        }
+    },
+    {
+        "model": "web.email",
+        "pk": 4,
+        "fields": {
+            "email": "aswandhk2000@gmail.com"
+        }
+    },
+    {
+        "model": "web.notification",
+        "pk": 1,
+        "fields": {
+            "notification": "Best qualified trainer and experienced career guidance expert at the National and International leve"
+        }
+    },
+    {
+        "model": "web.youtubelink",
+        "pk": 1,
+        "fields": {
+            "title": "0:13 / 11:46   പത്താം ക്ലാസിനു ശേഷം ഏറ്റവും അനുയോജ്യമായ മേഖലകളിലേക്ക് പോകാൻ..",
+            "video_id": "4h1JtYQpkbQ"
+        }
+    },
+    {
+        "model": "web.youtubelink",
+        "pk": 2,
+        "fields": {
+            "title": "NEET / KEAM OPTION REGISTRATION",
+            "video_id": "aUjZQojyjo0"
+        }
+    },
+    {
+        "model": "web.youtubelink",
+        "pk": 3,
+        "fields": {
+            "title": "JOSAA 2023 : IIT / NIT / IIT - ഇത് ശ്രദ്ധിക്കുക !!!",
+            "video_id": "NIzTk-5hp44"
+        }
+    }
+]

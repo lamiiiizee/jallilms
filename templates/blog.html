@@ -1,0 +1,59 @@
+{% extends 'partials/base.html' %}
+{% load static %}
+{% block content %}
+
+<section id="blog_main_page" class="section_padding">
+
+    <div class="container">
+        <div class="row">
+            {% for i in updates %}
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="blog_area box-shadow">
+                    <div class="blog_area_img">
+                        <a href="{% url 'web:updates' i.id %}">
+                            <img src="{{i.image.url}}" alt="img">
+                        </a>
+                    </div>
+                    <div class="blog_area_text">
+                        <p>{{i.subhead}}</p>
+                        <h3><a href="{% url 'web:updates' i.id %}">{{i.title}}</a></h3>
+                        <div class="blog_flex_area">
+                            <p>{{i.date}}</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12 col-12">
+                <div class="section_title_arae">
+                    <h2>Latest Videos</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="">
+            <div class="row">
+                {% for video in youtube %}
+                <div class="col-xs-12 col-sm-4 p-2">
+                    <div class='embed-container'>
+                        <iframe src='https://www.youtube.com/embed/{{video.video_id}}' frameborder='0'
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+{% endblock %}

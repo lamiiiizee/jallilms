@@ -1,0 +1,82 @@
+{% extends 'partials/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<!-- Contact Area Start -->
+<section id="contact_area" class="section_padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12 col-12">
+        <div class="section_title_arae">
+          <h4>Contact</h4>
+          <h2>Get In Touch</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+
+      <div class="col-lg-6">
+        <div class="contact_form_main border">
+          <form method="POST" class="ajax" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div class="form-group">
+              {{form.name}}
+
+            </div>
+            <div class="form-group">
+              {{form.phone}}
+            </div>
+            <div class="form-group">
+              {{form.email}}
+
+            </div>
+            <div class="form-group">
+              {{form.message}}
+
+            </div>
+            <div class="form-check">
+              {{form.choices}}
+            </div>
+
+            <div class="contact-button" style="margin-top:80px;">
+              <button type="submit" class="btn btn-theme">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="contact_info_wrapper border mb-3">
+          <div class="contact_item">
+            <h5>Corporate office address</h5>
+            <p> 4th Floor,CD Tower,Near Baby Memorial Hospital,Bypass Road,Calicut - 673004</p>
+          </div>
+          <div class="contact_item">
+            <h5>Office number</h5>
+            <p><a href="tel:+918606119888">+91 8606119888</a></p>
+            <p><a href="tel:+918606119777">+91 8606119777</a></p>
+
+          </div>
+          <div class="contact_item">
+            <h5>Mail and Website</h5>
+            <p><a href="mailto:guru@careerguruonline.com">guru@careerguruonline.com</a></p>
+            <p><a href="mailto:careerguruonline.com"> careerguruonline.com</a></p>
+          </div>
+
+        </div>
+
+        <div class="contact_info_wrapper border"
+          style="height: 250px;overflow-y: auto;overflow-x: auto;resize: both;position: relative;z-index: 2;overflow:hidden;">
+          <iframe style="height:100%;width:100%;border:none;"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.0015897400517!2d75.79041880932937!3d11.261292750019535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba6594fadadd1ab%3A0x23f11cd86fa456f!2sCareer%20Guru!5e0!3m2!1sen!2sin!4v1682751794281!5m2!1sen!2sin"
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+{% endblock %}
