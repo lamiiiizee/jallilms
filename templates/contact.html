@@ -16,9 +16,9 @@
     </div>
     <div class="row">
 
-      <div class="col-lg-6">
-        <div class="contact_form_main border">
-          <form method="POST" class="ajax" enctype="multipart/form-data">
+      <div class="col-lg-6 ">
+        <div class="contact_form_main p_absalute border">
+          <form method="POST" class="ajax" id="contactForm" enctype="multipart/form-data">
             {% csrf_token %}
             <div class="form-group">
               {{form.name}}
@@ -43,11 +43,26 @@
               <button type="submit" class="btn btn-theme">Submit</button>
             </div>
           </form>
+          <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+        </div>
+        <div class="sweet-alert col-lg-12 col-md-6 form-success-result">
+          <div class="buttontick">
+            <div class="icon success animate">
+              <span class="line tip animateSuccessTip"></span>
+              <span class="line long animateSuccessLong"></span>
+              <span class="placeholder"></span>
+              <span class="fix"></span>
+            </div>
+            <div class="backtohome">
+              <a class="btn btn-theme" href="">back to home</a>
+            </div>
+          </div>
         </div>
       </div>
 
+
       <div class="col-lg-6">
-        <div class="contact_info_wrapper border mb-3">
+        <div class="contact_info_wrapper border mb-3 p_relateve">
           <div class="contact_item">
             <h5>Corporate office address</h5>
             <p> 4th Floor,CD Tower,Near Baby Memorial Hospital,Bypass Road,Calicut - 673004</p>

@@ -55,8 +55,8 @@ class Notification(models.Model):
 
 class PositionsToken(models.Model):
     name = models.CharField(max_length=100)
-    fromDateTime = models.DateField(null=True, blank=True)
-    toYear = models.DateField(null=True, blank=True)
+    fromdate = models.DateField(null=True, blank=True)
+    toyear = models.CharField(null=True, blank=True,max_length=200)
     subtitle = models.CharField(max_length=80)
 
     def __str__(self):

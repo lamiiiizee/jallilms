@@ -52,11 +52,16 @@ def contact(request):
             data = forms.save(commit=False)
             data.referral = "web"
             data.save()
-            return HttpResponse("successfully submitted")
+            # return HttpResponse("successfully submitted")
+            response_data = {
+                "status": "true",
+                "title": "Successfully Submitted",
+                "message": "Message successfully updated",
+            }
 
         else:
             response_data = {"status": "false", "title": "Form validation error", "message": repr(forms.errors)}
-            return HttpResponse(json.dumps(response_data), content_type="application/javascript")
+        return HttpResponse(json.dumps(response_data), content_type="application/javascript")
     else:
         context = {"form": forms, "is_contact": True}
     return render(request, template_name, context)
@@ -77,8 +82,9 @@ def email(request):
         context = {"emailform": emailform}
     return render(request, template_name, context)
 
-def gallery(request):
-    youtube = YoutubeLink.objects.all()
-    context = {"is_updates": True, "youtube": youtube}
 
+
+def gallery(request):
+    gallery = Gallery.objects.all()
+    context = {"is_gallery": True, "gallery": gallery}
     return render(request, "gallery.html", context)

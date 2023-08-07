@@ -1,5 +1,6 @@
 from django.contrib import admin
-
+from django import forms
+from .forms import *
 from .models import Award,PositionsToken, Contact, Email, Gallery, Notification, Update, YoutubeLink
 
 
@@ -32,11 +33,14 @@ class NotificationAdmin(admin.ModelAdmin):
 class AwardAdmin(admin.ModelAdmin):
     pass
 
-@admin.register(PositionsToken)
-class PositionsTokenAdmin(admin.ModelAdmin):
-    pass
-
 
 @admin.register(YoutubeLink)
 class YoutubeLinAdmin(admin.ModelAdmin):
     list_display = ("title", "video_id", "video_url", "timestamp")
+
+
+
+@admin.register(PositionsToken)
+class PositionsTokenAdmin(admin.ModelAdmin):
+    list_display = ("name","fromdate", "toyear")
+    form = PositionsTokenAdminForm
